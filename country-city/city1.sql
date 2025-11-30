@@ -59,5 +59,3 @@ INSERT INTO Cities  (Id, Name,CountryId ) VALUES
 	(2427, 'Aguascalientes', 142);
 
 	SET IDENTITY_INSERT Cities  OFF;
-
-	SET IDENTITY_INSERT Cities  OFF;
