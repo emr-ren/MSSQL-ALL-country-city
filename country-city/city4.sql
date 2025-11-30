@@ -1,6 +1,6 @@
 use TenantDb;
-SET IDENTITY_INSERT City ON;
-INSERT INTO City (Id, Name,CountryId ) VALUES
+SET IDENTITY_INSERT Cities ON;
+INSERT INTO Cities (Id, Name,CountryId ) VALUES
 	(1025, 'Carchi', 63),
 	(281, 'Carinthia', 14),
 	(1750, 'Carlow', 105),
@@ -208,7 +208,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(213, 'Corrientes', 10),
 	(1212, 'Corse-du-Sud', 75),
 	(1622, 'Cortes', 97),
-	(4144, 'Çorum', 223),
+	(4144, 'ï¿½orum', 223),
 	(1828, 'Cosenza', 107),
 	(1213, 'Cote-d Or', 75),
 	(1214, 'Cotes-d Armor', 75),
@@ -319,7 +319,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(983, 'Distrito Nacional', 61),
 	(854, 'Dix-huit Montagnes', 53),
 	(1733, 'Diyala', 104),
-	(4146, 'Diyarbakýr', 223),
+	(4146, 'Diyarbakï¿½r', 223),
 	(3770, 'Dnipropetrovska', 228),
 	(2124, 'Dobeles', 120),
 	(547, 'Dobrich', 33),
@@ -363,7 +363,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(79, 'Durres', 2),
 	(3500, 'Dushanbe', 215),
 	(4052, 'Duyen Hai Mien Trung', 238),
-	(4147, 'Düzce', 223),
+	(4147, 'Dï¿½zce', 223),
 	(2863, 'Dziekanow Lesny', 175),
 	(1600, 'East Berbice-Corentyne', 94),
 	(3837, 'East Dunbartonshire', 230),
@@ -399,7 +399,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(1624, 'El Paraiso', 97),
 	(1527, 'El Progreso', 90),
 	(985, 'El Seybo', 61),
-	(4149, 'Elazýð', 223),
+	(4149, 'Elazï¿½ï¿½', 223),
 	(80, 'Elbasan', 2),
 	(317, 'Eleuthera', 16),
 	(986, 'Elias Pina', 61),
@@ -421,7 +421,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(2208, 'Eschen', 125),
 	(1528, 'Escuintla', 90),
 	(1705, 'Esfahan', 103),
-	(4152, 'Eskiþehir', 223),
+	(4152, 'Eskiï¿½ehir', 223),
 	(1029, 'Esmeraldas', 63),
 	(987, 'Espaillat', 61),
 	(519, 'Espirito Santo', 30),
@@ -670,7 +670,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(2780, 'Gulf', 170),
 	(1658, 'Gullbringusysla', 100),
 	(1927, 'Gumma', 109),
-	(4155, 'Gümüþhane', 223),
+	(4155, 'Gï¿½mï¿½ï¿½hane', 223),
 	(1344, 'Guria', 81),
 	(2081, 'gwangyoksi', 116),
 	(3850, 'Gwent', 230),
@@ -706,4 +706,4 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(1364, 'Hamburg', 82),
 	(1788, 'Hamerkaz', 106);
 
-	SET IDENTITY_INSERT Country OFF;
+	SET IDENTITY_INSERT Cities OFF;
