@@ -1,6 +1,6 @@
 use TenantDb;
-SET IDENTITY_INSERT City ON;
-INSERT INTO City (Id,Name,CountryId) VALUES
+SET IDENTITY_INSERT Cities ON;
+INSERT INTO Cities (Id,Name,CountryId) VALUES
 (1413, 'Ahaia', 85),
 	(3746, 'Ahal', 224),
 	(1077, 'Ahuachapan', 65),
@@ -121,4 +121,4 @@ INSERT INTO City (Id,Name,CountryId) VALUES
 	(113, 'Algiers', 3),
 	(445, 'Alibori', 23);
 
-	SET IDENTITY_INSERT City OFF;
+	SET IDENTITY_INSERT Cities OFF;
