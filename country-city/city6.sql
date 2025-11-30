@@ -1,6 +1,6 @@
 use TenantDb;
-SET IDENTITY_INSERT City ON;
-INSERT INTO City (Id, Name,CountryId ) VALUES
+SET IDENTITY_INSERT Cities ON;
+INSERT INTO Cities (Id, Name,CountryId ) VALUES
 	(1381, 'Mecklenburg-Vorpommern', 82),
 	(3944, 'Medfield', 231),
 	(878, 'Medhimurje', 54),
@@ -126,7 +126,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(132, 'Muaskar', 3),
 	(3231, 'Mudug', 201),
 	(302, 'Mugan-Salyan', 15),
-	(4179, 'Muðla', 223),
+	(4179, 'Muï¿½la', 223),
 	(1052, 'Muhafazat ad Daqahliyah', 64),
 	(1053, 'Muhafazat al Fayyum', 64),
 	(1054, 'Muhafazat al Gharbiyah', 64),
@@ -144,7 +144,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(2962, 'Mures', 180),
 	(3033, 'Murmansk', 181),
 	(2188, 'Murzuq', 124),
-	(4180, 'Muþ', 223),
+	(4180, 'Muï¿½', 223),
 	(2716, 'Musandam', 165),
 	(2853, 'Muslim Mindanao', 173),
 	(133, 'Mustaghanam', 3),
@@ -228,7 +228,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(3441, 'Neuchatel', 212),
 	(222, 'Neuquen', 10),
 	(3951, 'Nevada', 231),
-	(4181, 'Nevþehir', 223),
+	(4181, 'Nevï¿½ehir', 223),
 	(666, 'New Brunswick', 38),
 	(3952, 'New Hampshire', 231),
 	(2786, 'New Ireland', 170),
@@ -261,7 +261,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(285, 'Niederosterreich', 14),
 	(1385, 'Niedersachsen', 82),
 	(1273, 'Nievre', 75),
-	(4182, 'Niðde', 223),
+	(4182, 'Niï¿½de', 223),
 	(2673, 'Niger', 160),
 	(1947, 'Niigata', 109),
 	(2024, 'Nikunau', 114),
@@ -505,4 +505,4 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(528, 'Parana', 30);
 	
 
-SET IDENTITY_INSERT Country OFF;
+SET IDENTITY_INSERT Cities OFF;
