@@ -1,6 +1,8 @@
+use TenantDb
+
 use TenantDb;
-SET IDENTITY_INSERT Country ON;
-INSERT INTO Country (Id, Shortening, Name, PhoneCode) VALUES
+SET IDENTITY_INSERT Countries ON;
+INSERT INTO Countries (Id, Shortening, Name, PhoneCode) VALUES
 
 	(1, 'AF', 'Afghanistan', '93'),
 	(2, 'AL', 'Albania', '355'),
@@ -249,4 +251,4 @@ INSERT INTO Country (Id, Shortening, Name, PhoneCode) VALUES
 	(245, 'ZM', 'Zambia', '260'),
 	(246, 'ZW', 'Zimbabwe', '263');
 
-	SET IDENTITY_INSERT Country OFF;
+	SET IDENTITY_INSERT Countries OFF;
