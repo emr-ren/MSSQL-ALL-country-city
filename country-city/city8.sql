@@ -1,6 +1,6 @@
 use TenantDb;
-SET IDENTITY_INSERT City ON;
-INSERT INTO City (Id, Name,CountryId ) VALUES
+SET IDENTITY_INSERT Cities ON;
+INSERT INTO Cities (Id, Name,CountryId ) VALUES
 	(1878, 'Sassari', 107),
 	(1175, 'Satakunta', 74),
 	(140, 'Satif', 3),
@@ -126,7 +126,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(3631, 'Siparia', 221),
 	(398, 'Sirajganj', 18),
 	(4010, 'Sirdare', 234),
-	(4191, 'Þýrnak', 223),
+	(4191, 'ï¿½ï¿½rnak', 223),
 	(308, 'Sirvan', 15),
 	(885, 'Sisak-Moslavina', 54),
 	(1489, 'Sisimiut', 86),
@@ -356,7 +356,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(2523, 'Taza-Al Hoceima-Taounate', 148),
 	(1353, 'Tbilisi', 81),
 	(1726, 'Tehran', 103),
-	(4193, 'Tekirdað', 223),
+	(4193, 'Tekirdaï¿½', 223),
 	(1798, 'Tel Aviv', 106),
 	(36, 'Telangana', 101),
 	(2708, 'Telemark', 164),
@@ -535,7 +535,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(3417, 'Uppsala', 211),
 	(3450, 'Uri', 212),
 	(71, 'Uruzgan', 1),
-	(4197, 'Uþak', 223),
+	(4197, 'Uï¿½ak', 223),
 	(3069, 'Ust-Orda', 181),
 	(936, 'Ustecky', 57),
 	(1090, 'Usulutan', 65),
@@ -607,4 +607,4 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(571, 'Veliko Tarnovo', 33);
 	
 
-SET IDENTITY_INSERT Country OFF;
+SET IDENTITY_INSERT Cities OFF;
