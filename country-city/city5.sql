@@ -1,6 +1,6 @@
 use TenantDb;
-SET IDENTITY_INSERT City ON;
-INSERT INTO City (Id, Name,CountryId ) VALUES
+SET IDENTITY_INSERT Cities ON;
+INSERT INTO Cities (Id, Name,CountryId ) VALUES
 	(2036, 'Hamgyeongbukto', 115),
 	(2037, 'Hamgyeongnamdo', 115),
 	(457, 'Hamilton', 24),
@@ -117,7 +117,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(1106, 'Ida-Viru', 68),
 	(3933, 'Idaho', 231),
 	(3463, 'Idlib', 213),
-	(4158, 'Iðdýr', 223),
+	(4158, 'Iï¿½dï¿½r', 223),
 	(1711, 'Ilam', 103),
 	(3478, 'Ilan', 214),
 	(1242, 'Ile-de-France', 75),
@@ -167,7 +167,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(3857, 'Isle of Wight', 230),
 	(4159, 'Isparta', 223),
 	(2095, 'Issyk-Kul', 118),
-	(4160, 'Ýstanbul', 223),
+	(4160, 'ï¿½stanbul', 223),
 	(873, 'Istra', 54),
 	(1156, 'Ita-Suomen Laani', 74),
 	(1157, 'Ita-Uusimaa', 74),
@@ -177,7 +177,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(1478, 'Ivittuut', 86),
 	(1933, 'Iwate', 109),
 	(1531, 'Izabal', 90),
-	(4161, 'Ýzmir', 223),
+	(4161, 'ï¿½zmir', 223),
 	(2151, 'Jabal Lubnan', 121),
 	(2377, 'Jabat', 137),
 	(3290, 'Jaen', 205),
@@ -265,7 +265,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(3509, 'Kagera', 216),
 	(1935, 'Kagoshima', 109),
 	(1346, 'Kaheti', 81),
-	(4162, 'Kahramanmaraþ', 223),
+	(4162, 'Kahramanmaraï¿½', 223),
 	(1158, 'Kainuu', 74),
 	(3539, 'Kalasin', 217),
 	(3328, 'Kalatura', 206),
@@ -305,7 +305,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(3167, 'Kaolack', 192),
 	(55, 'Kapisa', 1),
 	(3605, 'Kara', 218),
-	(4163, 'Karabük', 223),
+	(4163, 'Karabï¿½k', 223),
 	(3010, 'Karachaj-Cherkessija', 181),
 	(1996, 'Karagandi', 112),
 	(4164, 'Karaman', 223),
@@ -411,12 +411,12 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(1906, 'Kingston', 108),
 	(3482, 'Kinmen', 214),
 	(828, 'Kinshasa', 50),
-	(4169, 'Kýrýkkale', 223),
+	(4169, 'Kï¿½rï¿½kkale', 223),
 	(2019, 'Kiritimati', 114),
-	(4170, 'Kýrklareli', 223),
+	(4170, 'Kï¿½rklareli', 223),
 	(3014, 'Kirov', 181),
 	(3777, 'Kirovohrad', 228),
-	(4171, 'Kýrþehir', 223),
+	(4171, 'Kï¿½rï¿½ehir', 223),
 	(622, 'Kirundo', 35),
 	(1794, 'Kiryat Yam', 106),
 	(363, 'Kishorganj', 18),
@@ -513,7 +513,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(3331, 'Kurunegala', 206),
 	(2461, 'Kusaie', 143),
 	(367, 'Kushtiya', 18),
-	(4174, 'Kütahya', 223),
+	(4174, 'Kï¿½tahya', 223),
 	(1347, 'Kvemo Kartli', 81),
 	(2380, 'Kwajalein', 137),
 	(2065, 'Kwangju', 116),
@@ -892,4 +892,4 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(2575, 'Mechi', 153);
 	
 
-SET IDENTITY_INSERT Country OFF;
+SET IDENTITY_INSERT Cities OFF;
