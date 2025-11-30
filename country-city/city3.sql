@@ -1,6 +1,6 @@
 use TenantDb;
-SET IDENTITY_INSERT City ON;
-INSERT INTO City (Id, Name,CountryId ) VALUES
+SET IDENTITY_INSERT Cities ON;
+INSERT INTO Cities(Id, Name,CountryId ) VALUES
 	(2325, 'Alif Alif', 133),
 	(2326, 'Alif Dhaal', 133),
 	(1184, 'Allier', 75),
@@ -181,7 +181,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(3261, 'Avila', 205),
 	(3221, 'Awdal', 201),
 	(2816, 'Ayacucho', 172),
-	(4131, 'Aydýn', 223),
+	(4131, 'Aydï¿½n', 223),
 	(2537, 'Ayeyarwady', 150),
 	(1420, 'Ayion Oros', 85),
 	(1988, 'az-Zarqa', 111),
@@ -225,7 +225,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(3263, 'Balears', 205),
 	(247, 'Balgowlah', 13),
 	(1667, 'Bali', 102),
-	(4132, 'Balýkesir', 223),
+	(4132, 'Balï¿½kesir', 223),
 	(3748, 'Balkan', 224),
 	(45, 'Balkh', 1),
 	(248, 'Balmain', 13),
@@ -262,7 +262,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(4024, 'Barinas', 237),
 	(340, 'Barisal', 18),
 	(1509, 'Barrigada', 89),
-	(4133, 'Bartýn', 223),
+	(4133, 'Bartï¿½n', 223),
 	(822, 'Bas-Congo', 50),
 	(1197, 'Bas-Rhin', 75),
 	(3427, 'Basel-Landschaft', 212),
@@ -345,7 +345,7 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(704, 'Biltine', 42),
 	(314, 'Biminis', 16),
 	(3635, 'Bin Arus', 222),
-	(4137, 'Bingöl', 223),
+	(4137, 'Bingï¿½l', 223),
 	(4045, 'Binh Dinh', 238),
 	(4046, 'Binh Duong', 238),
 	(3636, 'Binzart', 222),
@@ -499,13 +499,13 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(3818, 'Cambridgeshire', 230),
 	(1822, 'Campania', 107),
 	(2430, 'Campeche', 142),
-	(4142, 'Çanakkale', 223),
+	(4142, 'ï¿½anakkale', 223),
 	(1024, 'Canar', 63),
 	(3103, 'Canaries', 185),
 	(3981, 'Canelones', 233),
 	(2801, 'Canendiyu', 171),
 	(169, 'Canillo', 5),
-	(4143, 'Çankýrý', 223),
+	(4143, 'ï¿½ankï¿½rï¿½', 223),
 	(617, 'Cankuzo', 35),
 	(3270, 'Cantabria', 205),
 	(3141, 'Cantagalo', 190),
@@ -520,4 +520,4 @@ INSERT INTO City (Id, Name,CountryId ) VALUES
 	(2946, 'Caras-Severin', 180),
 	(2625, 'Carazo', 158);
 
-	SET IDENTITY_INSERT Country OFF;
+	SET IDENTITY_INSERT Cities OFF;
